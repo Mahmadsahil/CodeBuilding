@@ -49,7 +49,7 @@ const TopicQuestionsList = () => {
 
                 <header className='w-40 text-2xl p-2 my-4 text-center text-slate-600'>{questions.topic}</header>
 
-                <form className='w-10/12 md:w-10/12 flex justify-between gap-2 shadow px-4 py-2'>
+                <form className='w-full mx-2 md:mx-0 md:w-10/12 flex justify-between gap-2 shadow px-4 py-2'>
                     <div className='flex items-center gap-2 text-sm md:text-base'>
                         Difficulty :
                         <select className='text-slate-600 bg-slate-50 border text-sm md:text-base'
