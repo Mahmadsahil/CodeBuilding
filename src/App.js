@@ -22,7 +22,7 @@ const App = () => {
   return (
     <div className="w-10/12 mx-auto text-2xl flex flex-col p-4 mt-4 md:mt-8 gap-4 mb-4">
       <header className="text-2xl text-slate-600 font-medium">Data Strucuters :</header>
-      <div className="w-full flex flex-wrap justify-center gap-5 my-2 md:my-0 mx-auto  ">
+      <div className="w-full flex flex-wrap justify-center gap-3 my-2 md:my-0 mx-auto  ">
         {
           DataStrucuters.map((item, idx) => (
             <Suspense key={item.topic} fallback={<DSShimmer />}>
