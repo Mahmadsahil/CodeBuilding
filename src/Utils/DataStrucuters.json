@@ -1,0 +1,761 @@
+[
+  {
+    "topic": "Arrray",
+    "questions": [
+      {
+        "question": "Find the maximum and minimum element in an array",
+        "difficulty": "easy",
+        "topic": "Basic array traversal",
+        "example": "Input: [3, 5, 1, 2, 4] Output: Max: 5, Min: 1"
+      },
+      {
+        "question": "Reverse the array",
+        "difficulty": "easy",
+        "topic": "In-place reversal",
+        "example": "Input: [1, 2, 3, 4, 5] Output: [5, 4, 3, 2, 1]"
+      },
+      {
+        "question": "Find the intersection of two arrays",
+        "difficulty": "easy",
+        "topic": "Hashing",
+        "example": "Input: [1, 2, 2, 1], [2, 2] Output: [2, 2]"
+      },
+      {
+        "question": "Move all negative numbers to beginning and positive to end",
+        "difficulty": "easy",
+        "topic": "Two-pointer technique",
+        "example": "Input: [1, -2, 3, -4, 5] Output: [-2, -4, 1, 3, 5]"
+      },
+      {
+        "question": "Find duplicates in an array",
+        "difficulty": "easy",
+        "topic": "Hashing",
+        "example": "Input: [1, 2, 3, 1, 2] Output: [1, 2]"
+      },
+      {
+        "question": "Find the kth smallest element in an array",
+        "difficulty": "medium",
+        "topic": "Sorting based solution",
+        "example": "Input: [7, 10, 4, 3, 20, 15], k=3 Output: 7"
+      },
+      {
+        "question": "Sort an array of 0s, 1s and 2s",
+        "difficulty": "medium",
+        "topic": "Dutch National Flag problem",
+        "example": "Input: [0, 1, 2, 0, 1, 2] Output: [0, 0, 1, 1, 2, 2]"
+      },
+      {
+        "question": "Rotate an array by k positions",
+        "difficulty": "medium",
+        "topic": "Array manipulation",
+        "example": "Input: [1, 2, 3, 4, 5], k=2 Output: [4, 5, 1, 2, 3]"
+      },
+      {
+        "question": "Find the largest contiguous subarray sum",
+        "difficulty": "medium",
+        "topic": "Kadane's algorithm",
+        "example": "Input: [-2, 1, -3, 4, -1, 2, 1, -5, 4] Output: 6"
+      },
+      {
+        "question": "Find the longest consecutive sequence",
+        "difficulty": "medium",
+        "topic": "Hashing",
+        "example": "Input: [100, 4, 200, 1, 3, 2] Output: 4"
+      },
+      {
+        "question": "Find the median of two sorted arrays",
+        "difficulty": "hard",
+        "topic": "Binary search",
+        "example": "Input: [1, 3], [2] Output: 2"
+      },
+      {
+        "question": "Find the maximum product of three numbers in an array",
+        "difficulty": "hard",
+        "topic": "Sorting",
+        "example": "Input: [1, 10, -5, 1, 2] Output: 100"
+      },
+      {
+        "question": "Find all unique triplets in an array that sum up to zero",
+        "difficulty": "hard",
+        "topic": "Two-pointer technique",
+        "example": "Input: [-1, 0, 1, 2, -1, -4] Output: [[-1, -1, 2], [-1, 0, 1]]"
+      },
+      {
+        "question": "Find the longest subarray with a sum equal to zero",
+        "difficulty": "hard",
+        "topic": "Hashing",
+        "example": "Input: [1, -1, 3, -2, 2, -2, 1] Output: [1, -1, 3, -2, 2, -2, 1]"
+      },
+      {
+        "question": "Find the minimum window substring containing all characters of another string",
+        "difficulty": "hard",
+        "topic": "Sliding window",
+        "example": "Input: 'ADOBECODEBANC', 'ABC' Output: 'BANC'"
+      }
+    ]
+  },
+  {
+    "topic": "Object",
+    "questions": [
+      {
+        "question": "Merge two objects",
+        "difficulty": "easy",
+        "topic": "Object manipulation",
+        "example": "Input: {a: 1}, {b: 2} Output: {a: 1, b: 2}"
+      },
+      {
+        "question": "Check if an object is empty",
+        "difficulty": "easy",
+        "topic": "Object checking",
+        "example": "Input: {} Output: True"
+      },
+      {
+        "question": "Find the keys of an object",
+        "difficulty": "easy",
+        "topic": "Object traversal",
+        "example": "Input: {a: 1, b: 2} Output: ['a', 'b']"
+      },
+      {
+        "question": "Count the number of properties in an object",
+        "difficulty": "easy",
+        "topic": "Object counting",
+        "example": "Input: {a: 1, b: 2, c: 3} Output: 3"
+      },
+      {
+        "question": "Check if an object has a specific property",
+        "difficulty": "easy",
+        "topic": "Object property access",
+        "example": "Input: {a: 1}, 'a' Output: True"
+      },
+      {
+        "question": "Deep clone an object",
+        "difficulty": "medium",
+        "topic": "Deep copy",
+        "example": "Input: {a: {b: 2}} Output: {a: {b: 2}}"
+      },
+      {
+        "question": "Sort an array of objects by a property",
+        "difficulty": "medium",
+        "topic": "Sorting",
+        "example": "Input: [{a: 1}, {a: 3}, {a: 2}] Output: [{a: 1}, {a: 2}, {a: 3}]"
+      },
+      {
+        "question": "Find the values of an object",
+        "difficulty": "medium",
+        "topic": "Object traversal",
+        "example": "Input: {a: 1, b: 2} Output: [1, 2]"
+      },
+      {
+        "question": "Merge two objects with overlapping keys (values should be arrays)",
+        "difficulty": "medium",
+        "topic": "Object manipulation",
+        "example": "Input: {a: [1]}, {a: [2]} Output: {a: [1, 2]}"
+      },
+      {
+        "question": "Convert an object to a query string",
+        "difficulty": "medium",
+        "topic": "Serialization",
+        "example": "Input: {a: 1, b: 2} Output: 'a=1&b=2'"
+      },
+      {
+        "question": "Find the nested key in a deeply nested object",
+        "difficulty": "hard",
+        "topic": "Deep traversal",
+        "example": "Input: {a: {b: {c: 1}}}, 'a.b.c' Output: 1"
+      },
+      {
+        "question": "Implement a deep comparison between two objects",
+        "difficulty": "hard",
+        "topic": "Deep comparison",
+        "example": "Input: {a: 1, b: {c: 2}}, {a: 1, b: {c: 2}} Output: True"
+      },
+      {
+        "question": "Flatten a nested object into a single level object with dot notation",
+        "difficulty": "hard",
+        "topic": "Object manipulation",
+        "example": "Input: {a: {b: {c: 1}}} Output: { 'a.b.c': 1 }"
+      },
+      {
+        "question": "Remove duplicate values from an array of objects based on a property",
+        "difficulty": "hard",
+        "topic": "Object manipulation",
+        "example": "Input: [{a: 1}, {a: 1}, {a: 2}] Output: [{a: 1}, {a: 2}]"
+      },
+      {
+        "question": "Find all keys in an object and its nested objects",
+        "difficulty": "hard",
+        "topic": "Recursive traversal",
+        "example": "Input: {a: {b: {c: 1}}, d: 2} Output: ['a.b.c', 'd']"
+      }
+    ]
+  },
+  {
+    "topic": "String",
+    "questions": [
+      {
+        "question": "Reverse a string",
+        "difficulty": "easy",
+        "topic": "String manipulation",
+        "example": "Input: 'hello' Output: 'olleh'"
+      },
+      {
+        "question": "Check if a string is a palindrome",
+        "difficulty": "easy",
+        "topic": "String comparison",
+        "example": "Input: 'madam' Output: True"
+      },
+      {
+        "question": "Count vowels in a string",
+        "difficulty": "easy",
+        "topic": "Character counting",
+        "example": "Input: 'hello world' Output: 3"
+      },
+      {
+        "question": "Find the first non-repeating character",
+        "difficulty": "easy",
+        "topic": "Character counting",
+        "example": "Input: 'swiss' Output: 'w'"
+      },
+      {
+        "question": "Check if two strings are anagrams",
+        "difficulty": "easy",
+        "topic": "Sorting",
+        "example": "Input: 'listen', 'silent' Output: True"
+      },
+      {
+        "question": "Find all permutations of a string",
+        "difficulty": "medium",
+        "topic": "Backtracking",
+        "example": "Input: 'abc' Output: ['abc', 'acb', 'bac', 'bca', 'cab', 'cba']"
+      },
+      {
+        "question": "Perform string compression",
+        "difficulty": "medium",
+        "topic": "Compression",
+        "example": "Input: 'aabcccccaaa' Output: 'a2b1c5a3'"
+      },
+      {
+        "question": "Find the length of the longest substring without repeating characters",
+        "difficulty": "medium",
+        "topic": "Sliding window",
+        "example": "Input: 'abcabcbb' Output: 3"
+      },
+      {
+        "question": "Find the longest palindromic substring",
+        "difficulty": "medium",
+        "topic": "Dynamic programming",
+        "example": "Input: 'babad' Output: 'bab' or 'aba'"
+      },
+      {
+        "question": "Check if a string can be segmented into words from a dictionary",
+        "difficulty": "medium",
+        "topic": "Dynamic programming",
+        "example": "Input: 'applepie', Dictionary: ['apple', 'pie'] Output: True"
+      },
+      {
+        "question": "Implement regular expression matching",
+        "difficulty": "hard",
+        "topic": "Dynamic programming",
+        "example": "Input: 'aab', 'c*a*b' Output: True"
+      },
+      {
+        "question": "Find the longest substring with at most k distinct characters",
+        "difficulty": "hard",
+        "topic": "Sliding window",
+        "example": "Input: 'eceba', k=2 Output: 'ece'"
+      },
+      {
+        "question": "Find the minimum number of edits required to convert one string to another (edit distance)",
+        "difficulty": "hard",
+        "topic": "Dynamic programming",
+        "example": "Input: 'horse', 'ros' Output: 3"
+      },
+      {
+        "question": "Find the longest common subsequence of two strings",
+        "difficulty": "hard",
+        "topic": "Dynamic programming",
+        "example": "Input: 'abcde', 'ace' Output: 3"
+      },
+      {
+        "question": "Implement a basic text editor with undo and redo operations",
+        "difficulty": "hard",
+        "topic": "Complex data structures",
+        "example": "Operations: 'type a', 'type b', 'undo', 'redo' Output: 'a'"
+      }
+    ]
+  },
+  {
+    "topic": "Linked List",
+    "questions": [
+      {
+        "question": "Reverse a singly linked list",
+        "difficulty": "easy",
+        "topic": "Linked list manipulation",
+        "example": "Input: 1 -> 2 -> 3 -> 4 -> 5 Output: 5 -> 4 -> 3 -> 2 -> 1"
+      },
+      {
+        "question": "Detect a loop in a linked list",
+        "difficulty": "easy",
+        "topic": "Cycle detection",
+        "example": "Input: 1 -> 2 -> 3 -> 4 -> 2 (cycle starts at node with value 2) Output: True"
+      },
+      {
+        "question": "Find the middle of a linked list",
+        "difficulty": "easy",
+        "topic": "Linked list traversal",
+        "example": "Input: 1 -> 2 -> 3 -> 4 -> 5 Output: 3"
+      },
+      {
+        "question": "Merge two sorted linked lists into a single sorted linked list",
+        "difficulty": "easy",
+        "topic": "Linked list merging",
+        "example": "Input: 1 -> 3 -> 5 and 2 -> 4 -> 6 Output: 1 -> 2 -> 3 -> 4 -> 5 -> 6"
+      },
+      {
+        "question": "Delete a node given only access to that node",
+        "difficulty": "easy",
+        "topic": "Node deletion",
+        "example": "Input: Node with value 3 in 1 -> 2 -> 3 -> 4 Output: 1 -> 2 -> 4"
+      },
+      {
+        "question": "Remove duplicates from a sorted linked list",
+        "difficulty": "medium",
+        "topic": "Duplicate removal",
+        "example": "Input: 1 -> 1 -> 2 -> 3 -> 3 Output: 1 -> 2 -> 3"
+      },
+      {
+        "question": "Find the nth node from the end of a linked list",
+        "difficulty": "medium",
+        "topic": "Linked list traversal",
+        "example": "Input: 1 -> 2 -> 3 -> 4 -> 5, n=2 Output: 4"
+      },
+      {
+        "question": "Detect a cycle in a linked list using Floyd’s Tortoise and Hare algorithm",
+        "difficulty": "medium",
+        "topic": "Cycle detection",
+        "example": "Input: 1 -> 2 -> 3 -> 4 -> 5 -> 2 (cycle starts at node with value 2) Output: True"
+      },
+      {
+        "question": "Add two numbers represented by linked lists",
+        "difficulty": "medium",
+        "topic": "Linked list arithmetic",
+        "example": "Input: 2 -> 4 -> 3 (represents 342) and 5 -> 6 -> 4 (represents 465) Output: 7 -> 0 -> 8 (represents 807)"
+      },
+      {
+        "question": "Reverse a linked list in groups of size k",
+        "difficulty": "medium",
+        "topic": "Linked list manipulation",
+        "example": "Input: 1 -> 2 -> 3 -> 4 -> 5, k=3 Output: 3 -> 2 -> 1 -> 5 -> 4"
+      },
+      {
+        "question": "Rotate a linked list by k places",
+        "difficulty": "hard",
+        "topic": "Linked list manipulation",
+        "example": "Input: 1 -> 2 -> 3 -> 4 -> 5, k=2 Output: 4 -> 5 -> 1 -> 2 -> 3"
+      },
+      {
+        "question": "Flatten a multilevel doubly linked list",
+        "difficulty": "hard",
+        "topic": "Linked list flattening",
+        "example": "Input: 1 -> 2 -> 3 -> 4 with sublist 2 -> 5 -> 6 Output: 1 -> 2 -> 5 -> 6 -> 3 -> 4"
+      },
+      {
+        "question": "Sort a linked list using merge sort",
+        "difficulty": "hard",
+        "topic": "Linked list sorting",
+        "example": "Input: 4 -> 2 -> 1 -> 3 Output: 1 -> 2 -> 3 -> 4"
+      },
+      {
+        "question": "Find the intersection point of two linked lists",
+        "difficulty": "hard",
+        "topic": "Linked list intersection",
+        "example": "Input: List A: 1 -> 2 -> 3 -> 4 -> 5, List B: 6 -> 7 -> 8 -> 4 -> 5 Output: 4"
+      },
+      {
+        "question": "Remove every k-th node in a linked list",
+        "difficulty": "hard",
+        "topic": "Node removal",
+        "example": "Input: 1 -> 2 -> 3 -> 4 -> 5, k=3 Output: 1 -> 2 -> 3 -> 5"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questions": [
+      {
+        "question": "Implement a stack using arrays",
+        "difficulty": "easy",
+        "topic": "Basic stack implementation",
+        "example": "Push: [1, 2, 3], Pop: [3, 2, 1]"
+      },
+      {
+        "question": "Check for balanced parentheses in an expression",
+        "difficulty": "easy",
+        "topic": "Parentheses matching",
+        "example": "Input: '(a + b) * (c + d)' Output: Balanced"
+      },
+      {
+        "question": "Evaluate a postfix expression",
+        "difficulty": "easy",
+        "topic": "Postfix evaluation",
+        "example": "Input: '3 4 + 2 * 7 /' Output: 2"
+      },
+      {
+        "question": "Find the next greater element for each element in an array",
+        "difficulty": "easy",
+        "topic": "Next greater element",
+        "example": "Input: [4, 5, 2, 10] Output: [5, 10, 10, -1]"
+      },
+      {
+        "question": "Reverse a stack using recursion",
+        "difficulty": "easy",
+        "topic": "Recursive stack reversal",
+        "example": "Input: [1, 2, 3, 4] Output: [4, 3, 2, 1]"
+      },
+      {
+        "question": "Sort a stack using another stack",
+        "difficulty": "medium",
+        "topic": "Stack sorting",
+        "example": "Input: [3, 1, 4, 2] Output: [1, 2, 3, 4]"
+      },
+      {
+        "question": "Implement a stack with minimum element retrieval",
+        "difficulty": "medium",
+        "topic": "Min stack",
+        "example": "Push: [2, 1, 5], Min: 1"
+      },
+      {
+        "question": "Evaluate an infix expression with parentheses",
+        "difficulty": "medium",
+        "topic": "Infix evaluation",
+        "example": "Input: '(1 + 2) * (3 / 4)' Output: 1.75"
+      },
+      {
+        "question": "Design a stack that supports push, pop, top, and retrieving the minimum element in constant time",
+        "difficulty": "medium",
+        "topic": "Min stack with O(1) operations",
+        "example": "Push: [2, 0, -3], Min: -3"
+      },
+      {
+        "question": "Implement a stack that supports push, pop, top, and retrieving the maximum element in constant time",
+        "difficulty": "medium",
+        "topic": "Max stack with O(1) operations",
+        "example": "Push: [1, 2, 3], Max: 3"
+      },
+      {
+        "question": "Find the maximum rectangle area in a histogram",
+        "difficulty": "hard",
+        "topic": "Histogram problem",
+        "example": "Input: [2, 1, 5, 6, 2, 3] Output: 10"
+      },
+      {
+        "question": "Implement a stack that supports sorting in ascending order",
+        "difficulty": "hard",
+        "topic": "Stack sorting with additional stack",
+        "example": "Input: [3, 1, 4, 2] Output: [1, 2, 3, 4]"
+      },
+      {
+        "question": "Find the largest rectangle in a binary matrix filled with 1s and 0s",
+        "difficulty": "hard",
+        "topic": "Matrix problem",
+        "example": "Input: [[0, 1, 1, 0], [1, 1, 1, 1], [0, 1, 1, 1]] Output: 6"
+      },
+      {
+        "question": "Find the largest area of a rectangle in a 2D binary matrix filled with 1s and 0s",
+        "difficulty": "hard",
+        "topic": "2D matrix problem",
+        "example": "Input: [[0, 1, 1, 0], [1, 1, 1, 1], [0, 1, 1, 1]] Output: 6"
+      },
+      {
+        "question": "Implement a stack that supports push, pop, top, and retrieving the median element in constant time",
+        "difficulty": "hard",
+        "topic": "Stack with median retrieval",
+        "example": "Push: [1, 3, 2], Median: 2"
+      }
+    ]
+  },
+  {
+    "topic": "Queue",
+    "questions": [
+      {
+        "question": "Implement a queue using arrays",
+        "difficulty": "easy",
+        "topic": "Basic queue implementation",
+        "example": "Enqueue: [1, 2, 3], Dequeue: [1, 2]"
+      },
+      {
+        "question": "Implement a queue using two stacks",
+        "difficulty": "easy",
+        "topic": "Queue with stacks",
+        "example": "Push: [1, 2, 3], Pop: [1, 2]"
+      },
+      {
+        "question": "Find the maximum element in a sliding window of size k",
+        "difficulty": "easy",
+        "topic": "Sliding window maximum",
+        "example": "Input: [1, 3, -1, -3, 5, 3, 6, 7], k=3 Output: [3, 3, 5, 5, 6, 7]"
+      },
+      {
+        "question": "Reverse the first k elements of a queue",
+        "difficulty": "easy",
+        "topic": "Queue manipulation",
+        "example": "Input: [1, 2, 3, 4, 5], k=3 Output: [3, 2, 1, 4, 5]"
+      },
+      {
+        "question": "Check if a queue is empty",
+        "difficulty": "easy",
+        "topic": "Basic queue operations",
+        "example": "Input: [1, 2, 3] Output: Not empty"
+      },
+      {
+        "question": "Implement a circular queue using arrays",
+        "difficulty": "medium",
+        "topic": "Circular queue implementation",
+        "example": "Enqueue: [1, 2, 3, 4, 5], Dequeue: [1, 2, 3]"
+      },
+      {
+        "question": "Design a queue that supports the following operations in constant time: insert, delete, get_random_element",
+        "difficulty": "medium",
+        "topic": "Queue with random access",
+        "example": "Insert: [1, 2, 3], Delete: 1, Get random: [2, 3]"
+      },
+      {
+        "question": "Implement a priority queue using heaps",
+        "difficulty": "medium",
+        "topic": "Priority queue implementation",
+        "example": "Insert: [3, 1, 4, 2], Extract max: 4"
+      },
+      {
+        "question": "Merge two sorted queues",
+        "difficulty": "medium",
+        "topic": "Queue merging",
+        "example": "Input: [1, 3, 5], [2, 4, 6] Output: [1, 2, 3, 4, 5, 6]"
+      },
+      {
+        "question": "Implement a queue with a maximum element retrieval in constant time",
+        "difficulty": "medium",
+        "topic": "Max queue",
+        "example": "Enqueue: [1, 3, 2], Max: 3"
+      },
+      {
+        "question": "Design a queue that supports the following operations in constant time: enqueue, dequeue, get_max_element",
+        "difficulty": "hard",
+        "topic": "Queue with max retrieval",
+        "example": "Enqueue: [3, 1, 4, 2], Dequeue: 3, Max: 4"
+      },
+      {
+        "question": "Implement a queue with all operations (enqueue, dequeue, get_max_element) in constant time",
+        "difficulty": "hard",
+        "topic": "Queue with O(1) operations",
+        "example": "Enqueue: [2, 1, 5], Dequeue: 2, Max: 5"
+      },
+      {
+        "question": "Find the smallest window in a queue that contains all the distinct elements",
+        "difficulty": "hard",
+        "topic": "Sliding window problem",
+        "example": "Input: [1, 2, 3, 2, 1, 4, 5], Output: [2, 3, 2, 1, 4]"
+      },
+      {
+        "question": "Implement a double-ended queue (deque) using arrays",
+        "difficulty": "hard",
+        "topic": "Deque implementation",
+        "example": "InsertFront: [1, 2], InsertLast: [1, 2, 3], DeleteFront: 1, DeleteLast: 3"
+      },
+      {
+        "question": "Design a queue that supports enqueue, dequeue, and retrieving the median element in constant time",
+        "difficulty": "hard",
+        "topic": "Queue with median retrieval",
+        "example": "Enqueue: [1, 3, 2], Median: 2"
+      }
+    ]
+  },
+  {
+    "topic": "Trees",
+    "questions": [
+      {
+        "question": "Implement a binary search tree (BST) with insert, search, and delete operations",
+        "difficulty": "easy",
+        "topic": "Basic BST operations",
+        "example": "Insert: [5, 2, 8], Search 2: Found, Delete 2: [5, 8]"
+      },
+      {
+        "question": "Find the height of a binary tree",
+        "difficulty": "easy",
+        "topic": "Tree traversal",
+        "example": "Input: [1, 2, 3, 4, 5], Output: 3"
+      },
+      {
+        "question": "Check if a binary tree is balanced",
+        "difficulty": "easy",
+        "topic": "Tree balance",
+        "example": "Input: [1, 2, 3, 4, 5, 6], Output: Balanced"
+      },
+      {
+        "question": "Find the maximum depth of a binary tree",
+        "difficulty": "easy",
+        "topic": "Tree depth",
+        "example": "Input: [1, 2, 3, 4], Output: 4"
+      },
+      {
+        "question": "Find the lowest common ancestor (LCA) of two nodes in a binary tree",
+        "difficulty": "easy",
+        "topic": "LCA",
+        "example": "Input: [3, 5, 1, 6, 2], Nodes: 5 and 1, Output: 3"
+      },
+      {
+        "question": "Perform level order traversal of a binary tree",
+        "difficulty": "medium",
+        "topic": "Level order traversal",
+        "example": "Input: [1, 2, 3, 4, 5], Output: [[1], [2, 3], [4, 5]]"
+      },
+      {
+        "question": "Find the diameter of a binary tree",
+        "difficulty": "medium",
+        "topic": "Tree diameter",
+        "example": "Input: [1, 2, 3, 4, 5, 6], Output: 4"
+      },
+      {
+        "question": "Convert a binary tree to its mirror image",
+        "difficulty": "medium",
+        "topic": "Mirror image",
+        "example": "Input: [1, 2, 3], Output: [1, 3, 2]"
+      },
+      {
+        "question": "Check if a binary tree is symmetric",
+        "difficulty": "medium",
+        "topic": "Symmetry check",
+        "example": "Input: [1, 2, 2, 3, 4, 4, 3], Output: Symmetric"
+      },
+      {
+        "question": "Find the kth smallest element in a BST",
+        "difficulty": "medium",
+        "topic": "BST element retrieval",
+        "example": "Input: [5, 3, 7, 2, 4], k=3 Output: 4"
+      },
+      {
+        "question": "Find all paths from root to leaves in a binary tree",
+        "difficulty": "hard",
+        "topic": "Path finding",
+        "example": "Input: [1, 2, 3], Output: [[1, 2], [1, 3]]"
+      },
+      {
+        "question": "Serialize and deserialize a binary tree",
+        "difficulty": "hard",
+        "topic": "Serialization",
+        "example": "Input: [1, 2, 3, null, null, 4, 5], Output: Serialized: '1,2,3,null,null,4,5'"
+      },
+      {
+        "question": "Find the vertical order traversal of a binary tree",
+        "difficulty": "hard",
+        "topic": "Vertical order traversal",
+        "example": "Input: [1, 2, 3, 4, 5], Output: [[4], [2], [1, 5], [3]]"
+      },
+      {
+        "question": "Find the maximum path sum in a binary tree",
+        "difficulty": "hard",
+        "topic": "Path sum",
+        "example": "Input: [1, 2, 3], Output: 6"
+      },
+      {
+        "question": "Find all nodes at distance k from a given node in a binary tree",
+        "difficulty": "hard",
+        "topic": "Distance finding",
+        "example": "Input: [1, 2, 3, 4, 5, 6], Node: 3, k=2 Output: [4, 5, 6]"
+      }
+    ]
+  },{
+    "topic": "Graphs",
+    "questions": [
+      {
+        "question": "Implement a graph using an adjacency list",
+        "difficulty": "easy",
+        "topic": "Graph representation",
+        "example": "Add edge: (1, 2), (2, 3), Output: {1: [2], 2: [1, 3], 3: [2]}"
+      },
+      {
+        "question": "Perform breadth-first search (BFS) on a graph",
+        "difficulty": "easy",
+        "topic": "BFS traversal",
+        "example": "Input: Starting node 1, Output: [1, 2, 3, 4]"
+      },
+      {
+        "question": "Perform depth-first search (DFS) on a graph",
+        "difficulty": "easy",
+        "topic": "DFS traversal",
+        "example": "Input: Starting node 1, Output: [1, 2, 4, 3]"
+      },
+      {
+        "question": "Check if a graph is connected",
+        "difficulty": "easy",
+        "topic": "Graph connectivity",
+        "example": "Input: {1: [2], 2: [1, 3], 3: [2]}, Output: Connected"
+      },
+      {
+        "question": "Find the shortest path between two nodes in an unweighted graph using BFS",
+        "difficulty": "easy",
+        "topic": "Shortest path",
+        "example": "Input: {1: [2], 2: [1, 3], 3: [2]}, Start: 1, End: 3, Output: [1, 2, 3]"
+      },
+      {
+        "question": "Find the shortest path between two nodes in a weighted graph using Dijkstra's algorithm",
+        "difficulty": "medium",
+        "topic": "Shortest path (Dijkstra)",
+        "example": "Input: {1: [(2, 1), (3, 4)], 2: [(3, 2)], 3: []}, Start: 1, End: 3, Output: [1, 2, 3], Distance: 3"
+      },
+      {
+        "question": "Detect a cycle in a directed graph",
+        "difficulty": "medium",
+        "topic": "Cycle detection",
+        "example": "Input: {1: [2], 2: [3], 3: [1]}, Output: Cycle detected"
+      },
+      {
+        "question": "Find the minimum spanning tree (MST) using Kruskal's algorithm",
+        "difficulty": "medium",
+        "topic": "MST (Kruskal)",
+        "example": "Input: Edges [(1, 2, 1), (2, 3, 2), (1, 3, 3)], Output: [(1, 2), (2, 3)]"
+      },
+      {
+        "question": "Find the minimum spanning tree (MST) using Prim's algorithm",
+        "difficulty": "medium",
+        "topic": "MST (Prim)",
+        "example": "Input: Edges [(1, 2, 1), (2, 3, 2), (1, 3, 3)], Output: [(1, 2), (2, 3)]"
+      },
+      {
+        "question": "Find all strongly connected components (SCCs) in a directed graph using Tarjan's algorithm",
+        "difficulty": "medium",
+        "topic": "Strongly connected components",
+        "example": "Input: {1: [2], 2: [3], 3: [1]}, Output: [[1, 2, 3]]"
+      },
+      {
+        "question": "Find the longest path in a directed acyclic graph (DAG)",
+        "difficulty": "hard",
+        "topic": "Longest path in DAG",
+        "example": "Input: {1: [2], 2: [3], 3: [4]}, Output: [1, 2, 3, 4]"
+      },
+      {
+        "question": "Find the shortest path between two nodes in a graph with negative weights using Bellman-Ford algorithm",
+        "difficulty": "hard",
+        "topic": "Shortest path (Bellman-Ford)",
+        "example": "Input: {1: [(2, 1), (3, -1)], 2: [(3, 3)]}, Start: 1, End: 3, Output: [1, 2, 3], Distance: 2"
+      },
+      {
+        "question": "Determine if a graph is bipartite using BFS",
+        "difficulty": "hard",
+        "topic": "Bipartite graph",
+        "example": "Input: {1: [2], 2: [1, 3], 3: [2]}, Output: Bipartite"
+      },
+      {
+        "question": "Find all possible paths from source to destination in a graph",
+        "difficulty": "hard",
+        "topic": "Path finding",
+        "example": "Input: {1: [2, 3], 2: [4], 3: [4]}, Output: [[1, 2, 4], [1, 3, 4]]"
+      },
+      {
+        "question": "Solve the traveling salesman problem (TSP) using dynamic programming",
+        "difficulty": "hard",
+        "topic": "Traveling Salesman Problem",
+        "example": "Input: Distances matrix, Output: Minimum cost tour"
+      }
+    ]
+  }
+]

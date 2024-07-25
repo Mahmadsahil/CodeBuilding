@@ -1,0 +1,645 @@
+[
+    {
+        "topic": "Sorting Algorithms",
+        "questions": [
+          {
+            "question": "Implement bubble sort",
+            "difficulty": "easy",
+            "topic": "Bubble sort",
+            "example": "Input: [4, 3, 2, 1], Output: [1, 2, 3, 4]"
+          },
+          {
+            "question": "Implement insertion sort",
+            "difficulty": "easy",
+            "topic": "Insertion sort",
+            "example": "Input: [4, 3, 2, 1], Output: [1, 2, 3, 4]"
+          },
+          {
+            "question": "Implement selection sort",
+            "difficulty": "easy",
+            "topic": "Selection sort",
+            "example": "Input: [4, 3, 2, 1], Output: [1, 2, 3, 4]"
+          },
+          {
+            "question": "Implement merge sort",
+            "difficulty": "easy",
+            "topic": "Merge sort",
+            "example": "Input: [4, 3, 2, 1], Output: [1, 2, 3, 4]"
+          },
+          {
+            "question": "Implement quick sort",
+            "difficulty": "easy",
+            "topic": "Quick sort",
+            "example": "Input: [4, 3, 2, 1], Output: [1, 2, 3, 4]"
+          },
+          {
+            "question": "Implement heap sort",
+            "difficulty": "medium",
+            "topic": "Heap sort",
+            "example": "Input: [4, 3, 2, 1], Output: [1, 2, 3, 4]"
+          },
+          {
+            "question": "Implement radix sort",
+            "difficulty": "medium",
+            "topic": "Radix sort",
+            "example": "Input: [170, 45, 75, 90, 802, 24, 2, 66], Output: [2, 24, 45, 66, 75, 90, 170, 802]"
+          },
+          {
+            "question": "Implement counting sort",
+            "difficulty": "medium",
+            "topic": "Counting sort",
+            "example": "Input: [4, 2, 2, 8, 3, 3, 1], Output: [1, 2, 2, 3, 3, 4, 8]"
+          },
+          {
+            "question": "Implement shell sort",
+            "difficulty": "medium",
+            "topic": "Shell sort",
+            "example": "Input: [4, 3, 2, 1], Output: [1, 2, 3, 4]"
+          },
+          {
+            "question": "Implement bucket sort",
+            "difficulty": "medium",
+            "topic": "Bucket sort",
+            "example": "Input: [0.78, 0.17, 0.39, 0.26, 0.72], Output: [0.17, 0.26, 0.39, 0.72, 0.78]"
+          },
+          {
+            "question": "Implement merge sort for linked lists",
+            "difficulty": "hard",
+            "topic": "Merge sort for linked lists",
+            "example": "Input: [4 -> 3 -> 2 -> 1], Output: [1 -> 2 -> 3 -> 4]"
+          },
+          {
+            "question": "Implement quick sort for linked lists",
+            "difficulty": "hard",
+            "topic": "Quick sort for linked lists",
+            "example": "Input: [4 -> 3 -> 2 -> 1], Output: [1 -> 2 -> 3 -> 4]"
+          },
+          {
+            "question": "Find the k-th largest element using Quick Select algorithm",
+            "difficulty": "hard",
+            "topic": "Quick Select",
+            "example": "Input: [7, 10, 4, 3, 20, 15], k=3 Output: 10"
+          },
+          {
+            "question": "Implement Tim Sort",
+            "difficulty": "hard",
+            "topic": "Tim Sort",
+            "example": "Input: [5, 21, 7, 23, 19], Output: [5, 7, 19, 21, 23]"
+          },
+          {
+            "question": "Implement a sorting algorithm with a space complexity of O(1)",
+            "difficulty": "hard",
+            "topic": "In-place sorting",
+            "example": "Input: [3, 5, 2, 1, 4], Output: [1, 2, 3, 4, 5]"
+          }
+        ]
+      },
+      {
+        "topic": "Searching Algorithms",
+        "questions": [
+          {
+            "question": "Implement linear search",
+            "difficulty": "easy",
+            "topic": "Linear search",
+            "example": "Input: [4, 2, 7, 1, 3], Target: 7, Output: Index 2"
+          },
+          {
+            "question": "Implement binary search on a sorted array",
+            "difficulty": "easy",
+            "topic": "Binary search",
+            "example": "Input: [1, 2, 3, 4, 5], Target: 3, Output: Index 2"
+          },
+          {
+            "question": "Find the first occurrence of a target value in a sorted array",
+            "difficulty": "easy",
+            "topic": "Binary search",
+            "example": "Input: [1, 2, 2, 3, 4], Target: 2, Output: Index 1"
+          },
+          {
+            "question": "Find the last occurrence of a target value in a sorted array",
+            "difficulty": "easy",
+            "topic": "Binary search",
+            "example": "Input: [1, 2, 2, 3, 4], Target: 2, Output: Index 2"
+          },
+          {
+            "question": "Find the peak element in an array (element greater than its neighbors)",
+            "difficulty": "easy",
+            "topic": "Peak finding",
+            "example": "Input: [1, 3, 20, 4, 1], Output: 20"
+          },
+          {
+            "question": "Find the index of the first element greater than or equal to the target value in a sorted array",
+            "difficulty": "medium",
+            "topic": "Binary search",
+            "example": "Input: [1, 2, 4, 6, 8], Target: 5, Output: Index 4"
+          },
+          {
+            "question": "Find the square root of a number using binary search",
+            "difficulty": "medium",
+            "topic": "Binary search",
+            "example": "Input: 16, Output: 4"
+          },
+          {
+            "question": "Find the median of a sorted array",
+            "difficulty": "medium",
+            "topic": "Median finding",
+            "example": "Input: [1, 3, 5, 7], Output: 4"
+          },
+          {
+            "question": "Find the k-th smallest element in a matrix (sorted rows and columns)",
+            "difficulty": "medium",
+            "topic": "Matrix searching",
+            "example": "Input: [[1, 4, 7], [2, 5, 8], [3, 6, 9]], k=5, Output: 5"
+          },
+          {
+            "question": "Search for a range of target values in a sorted array",
+            "difficulty": "medium",
+            "topic": "Binary search",
+            "example": "Input: [5, 7, 7, 8, 8, 10], Target: 8, Output: [3, 4]"
+          },
+          {
+            "question": "Find the closest value to the target in a binary search tree (BST)",
+            "difficulty": "hard",
+            "topic": "BST search",
+            "example": "Input: BST: [10, 5, 15], Target: 12, Output: 10"
+          },
+          {
+            "question": "Find the majority element in an array (element appearing more than n/2 times)",
+            "difficulty": "hard",
+            "topic": "Majority element",
+            "example": "Input: [3, 3, 4, 2, 4, 4, 2, 4, 4], Output: 4"
+          },
+          {
+            "question": "Search in a rotated sorted array",
+            "difficulty": "hard",
+            "topic": "Rotated array search",
+            "example": "Input: [4, 5, 6, 7, 0, 1, 2], Target: 0, Output: Index 4"
+          },
+          {
+            "question": "Find the longest common prefix of strings in an array",
+            "difficulty": "hard",
+            "topic": "Prefix search",
+            "example": "Input: ['flower', 'flow', 'flight'], Output: 'fl'"
+          },
+          {
+            "question": "Search for a pattern in a text using the Knuth-Morris-Pratt (KMP) algorithm",
+            "difficulty": "hard",
+            "topic": "Pattern matching",
+            "example": "Input: Text: 'ABABDABACDABABCABAB', Pattern: 'ABABCABAB', Output: Index 10"
+          }
+        ]
+      },{
+        "topic": "Graph Algorithms",
+        "questions": [
+          {
+            "question": "Implement depth-first search (DFS) on a graph",
+            "difficulty": "easy",
+            "topic": "DFS traversal",
+            "example": "Input: Graph: {1: [2, 3], 2: [4], 3: [], 4: []}, Start: 1, Output: [1, 2, 4, 3]"
+          },
+          {
+            "question": "Implement breadth-first search (BFS) on a graph",
+            "difficulty": "easy",
+            "topic": "BFS traversal",
+            "example": "Input: Graph: {1: [2, 3], 2: [4], 3: [4], 4: []}, Start: 1, Output: [1, 2, 3, 4]"
+          },
+          {
+            "question": "Find the shortest path between two nodes in an unweighted graph using BFS",
+            "difficulty": "easy",
+            "topic": "Shortest path (BFS)",
+            "example": "Input: Graph: {1: [2, 3], 2: [4], 3: [4], 4: []}, Start: 1, End: 4, Output: [1, 2, 4] or [1, 3, 4]"
+          },
+          {
+            "question": "Find the connected components of an undirected graph",
+            "difficulty": "easy",
+            "topic": "Connected components",
+            "example": "Input: Graph: {1: [2], 2: [1], 3: [4], 4: [3]}, Output: [[1, 2], [3, 4]]"
+          },
+          {
+            "question": "Check if a graph is bipartite using BFS",
+            "difficulty": "easy",
+            "topic": "Bipartite graph",
+            "example": "Input: Graph: {1: [2], 2: [1, 3], 3: [2]}, Output: Bipartite"
+          },
+          {
+            "question": "Find the shortest path in a weighted graph using Dijkstra's algorithm",
+            "difficulty": "medium",
+            "topic": "Shortest path (Dijkstra)",
+            "example": "Input: Graph: {1: [(2, 1), (3, 4)], 2: [(3, 2)], 3: []}, Start: 1, End: 3, Output: [1, 2, 3], Distance: 3"
+          },
+          {
+            "question": "Find the minimum spanning tree (MST) of a graph using Kruskal's algorithm",
+            "difficulty": "medium",
+            "topic": "Minimum spanning tree (Kruskal)",
+            "example": "Input: Edges: [(1, 2, 1), (2, 3, 2), (1, 3, 3)], Output: MST: [(1, 2), (2, 3)]"
+          },
+          {
+            "question": "Find the minimum spanning tree (MST) of a graph using Prim's algorithm",
+            "difficulty": "medium",
+            "topic": "Minimum spanning tree (Prim)",
+            "example": "Input: Edges: [(1, 2, 1), (2, 3, 2), (1, 3, 3)], Output: MST: [(1, 2), (2, 3)]"
+          },
+          {
+            "question": "Detect a cycle in a directed graph",
+            "difficulty": "medium",
+            "topic": "Cycle detection",
+            "example": "Input: Graph: {1: [2], 2: [3], 3: [1]}, Output: Cycle detected"
+          },
+          {
+            "question": "Find the shortest path between two nodes in a graph with negative weights using Bellman-Ford algorithm",
+            "difficulty": "medium",
+            "topic": "Shortest path (Bellman-Ford)",
+            "example": "Input: Graph: {1: [(2, 1), (3, -1)], 2: [(3, 3)]}, Start: 1, End: 3, Output: [1, 2, 3], Distance: 2"
+          },
+          {
+            "question": "Find the longest path in a directed acyclic graph (DAG)",
+            "difficulty": "hard",
+            "topic": "Longest path in DAG",
+            "example": "Input: Graph: {1: [2], 2: [3], 3: [4]}, Output: [1, 2, 3, 4]"
+          },
+          {
+            "question": "Find all strongly connected components (SCCs) in a directed graph using Tarjan's algorithm",
+            "difficulty": "hard",
+            "topic": "Strongly connected components",
+            "example": "Input: Graph: {1: [2], 2: [3], 3: [1]}, Output: [[1, 2, 3]]"
+          },
+          {
+            "question": "Find the shortest path between all pairs of nodes using Floyd-Warshall algorithm",
+            "difficulty": "hard",
+            "topic": "All-pairs shortest path",
+            "example": "Input: Graph: [[0, 3, INF], [INF, 0, 1], [INF, INF, 0]], Output: Shortest path matrix"
+          },
+          {
+            "question": "Solve the traveling salesman problem (TSP) using dynamic programming",
+            "difficulty": "hard",
+            "topic": "Traveling Salesman Problem",
+            "example": "Input: Distance matrix, Output: Minimum cost tour"
+          },
+          {
+            "question": "Find the minimum cut of a graph using the Max-Flow Min-Cut Theorem",
+            "difficulty": "hard",
+            "topic": "Network flow",
+            "example": "Input: Flow network, Output: Minimum cut"
+          }
+        ]
+      },{
+        "topic": "Dynamic Programming",
+        "questions": [
+          {
+            "question": "Compute the nth Fibonacci number",
+            "difficulty": "easy",
+            "topic": "Fibonacci sequence",
+            "example": "Input: n = 5, Output: 5"
+          },
+          {
+            "question": "Find the maximum sum of a contiguous subarray",
+            "difficulty": "easy",
+            "topic": "Kadane's algorithm",
+            "example": "Input: [1, -2, 3, 4, -1, 2, 1, -5, 4], Output: 6"
+          },
+          {
+            "question": "Determine if a subset with a given sum exists in a set",
+            "difficulty": "easy",
+            "topic": "Subset sum problem",
+            "example": "Input: [3, 34, 4, 12, 5, 2], Sum: 9, Output: True"
+          },
+          {
+            "question": "Find the longest common subsequence (LCS) of two strings",
+            "difficulty": "easy",
+            "topic": "Longest common subsequence",
+            "example": "Input: 'ABCBDAB', 'BDCAB', Output: 'BCAB'"
+          },
+          {
+            "question": "Find the minimum number of coins needed to make a given amount",
+            "difficulty": "easy",
+            "topic": "Coin change problem",
+            "example": "Input: Coins: [1, 2, 5], Amount: 11, Output: 3 (5 + 5 + 1)"
+          },
+          {
+            "question": "Compute the nth Catalan number",
+            "difficulty": "medium",
+            "topic": "Catalan numbers",
+            "example": "Input: n = 3, Output: 5"
+          },
+          {
+            "question": "Find the maximum product of a contiguous subarray",
+            "difficulty": "medium",
+            "topic": "Maximum product subarray",
+            "example": "Input: [2, 3, -2, 4], Output: 6"
+          },
+          {
+            "question": "Find the longest increasing subsequence in an array",
+            "difficulty": "medium",
+            "topic": "Longest increasing subsequence",
+            "example": "Input: [10, 9, 2, 5, 3, 7, 101, 18], Output: 4 (2, 3, 7, 101)"
+          },
+          {
+            "question": "Find the minimum edit distance between two strings (Levenshtein distance)",
+            "difficulty": "medium",
+            "topic": "Edit distance",
+            "example": "Input: 'kitten', 'sitting', Output: 3"
+          },
+          {
+            "question": "Determine the maximum profit from a series of stock prices (Buy and Sell stock)",
+            "difficulty": "medium",
+            "topic": "Stock buy and sell",
+            "example": "Input: [7, 1, 5, 3, 6, 4], Output: 5"
+          },
+          {
+            "question": "Find the minimum path sum in a grid from top-left to bottom-right corner",
+            "difficulty": "hard",
+            "topic": "Minimum path sum",
+            "example": "Input: [[1, 3, 1], [1, 5, 1], [4, 2, 1]], Output: 7"
+          },
+          {
+            "question": "Compute the optimal matrix chain multiplication order",
+            "difficulty": "hard",
+            "topic": "Matrix chain multiplication",
+            "example": "Input: [10, 20, 30, 40, 30], Output: 30000"
+          },
+          {
+            "question": "Find the maximum value of items that can be put in a knapsack with a weight limit",
+            "difficulty": "hard",
+            "topic": "0/1 Knapsack problem",
+            "example": "Input: Weights: [1, 2, 3], Values: [60, 100, 120], Capacity: 5, Output: 220"
+          },
+          {
+            "question": "Solve the longest palindromic subsequence problem",
+            "difficulty": "hard",
+            "topic": "Longest palindromic subsequence",
+            "example": "Input: 'bbbab', Output: 4 ('bbbb')"
+          },
+          {
+            "question": "Find the number of ways to partition a set into subsets with equal sum",
+            "difficulty": "hard",
+            "topic": "Partition problem",
+            "example": "Input: [1, 5, 11, 5], Output: True"
+          }
+        ]
+      },{
+        "topic": "Greedy Algorithms",
+        "questions": [
+          {
+            "question": "Find the minimum number of coins needed to make a given amount (with unlimited supply of each coin)",
+            "difficulty": "easy",
+            "topic": "Coin change problem",
+            "example": "Input: Coins: [1, 2, 5], Amount: 11, Output: 3 (5 + 5 + 1)"
+          },
+          {
+            "question": "Find the maximum sum of non-adjacent elements in an array",
+            "difficulty": "easy",
+            "topic": "Maximum sum with no adjacent elements",
+            "example": "Input: [3, 2, 5, 10, 7], Output: 15 (3 + 10)"
+          },
+          {
+            "question": "Schedule the maximum number of non-overlapping intervals",
+            "difficulty": "easy",
+            "topic": "Interval scheduling",
+            "example": "Input: [[1, 3], [2, 4], [3, 5]], Output: [[1, 3], [3, 5]]"
+          },
+          {
+            "question": "Find the minimum spanning tree (MST) of a graph using Kruskal's algorithm",
+            "difficulty": "medium",
+            "topic": "Minimum spanning tree (Kruskal)",
+            "example": "Input: Edges: [(1, 2, 1), (2, 3, 2), (1, 3, 3)], Output: MST: [(1, 2), (2, 3)]"
+          },
+          {
+            "question": "Find the minimum spanning tree (MST) of a graph using Prim's algorithm",
+            "difficulty": "medium",
+            "topic": "Minimum spanning tree (Prim)",
+            "example": "Input: Edges: [(1, 2, 1), (2, 3, 2), (1, 3, 3)], Output: MST: [(1, 2), (2, 3)]"
+          },
+          {
+            "question": "Find the maximum profit from a series of stock prices (Buy and Sell stock with unlimited transactions)",
+            "difficulty": "medium",
+            "topic": "Stock buy and sell",
+            "example": "Input: [7, 1, 5, 3, 6, 4], Output: 7 (Buy on day 2, Sell on day 3, Buy on day 4, Sell on day 5)"
+          },
+          {
+            "question": "Find the minimum number of operations to reduce a number to zero by subtracting the largest power of 2 less than or equal to the number",
+            "difficulty": "medium",
+            "topic": "Greedy reduction",
+            "example": "Input: 7, Output: 3 (7 → 3 → 1 → 0)"
+          },
+          {
+            "question": "Find the maximum number of activities that can be performed by a single person",
+            "difficulty": "medium",
+            "topic": "Activity selection",
+            "example": "Input: [[1, 2], [3, 5], [0, 6], [5, 7], [8, 9], [5, 9]], Output: [[1, 2], [3, 5], [8, 9]]"
+          },
+          {
+            "question": "Solve the job sequencing problem where each job takes a certain amount of time and has a profit",
+            "difficulty": "medium",
+            "topic": "Job sequencing",
+            "example": "Input: Jobs: [(1, 2, 50), (2, 1, 10), (3, 2, 20)], Output: Maximum profit: 70"
+          },
+          {
+            "question": "Find the optimal way to cut a rod into pieces to maximize profit",
+            "difficulty": "hard",
+            "topic": "Rod cutting problem",
+            "example": "Input: Lengths: [1, 2, 3, 4, 5], Prices: [2, 5, 7, 8, 10], Length of rod: 5, Output: 12 (Cut into pieces of lengths 2 and 3)"
+          },
+          {
+            "question": "Find the minimum number of meeting rooms required to accommodate all the meetings given their start and end times",
+            "difficulty": "hard",
+            "topic": "Meeting rooms",
+            "example": "Input: [[0, 30], [5, 10], [15, 20]], Output: 2"
+          },
+          {
+            "question": "Solve the Huffman coding problem for data compression",
+            "difficulty": "hard",
+            "topic": "Huffman coding",
+            "example": "Input: Characters: ['a', 'b', 'c', 'd'], Frequencies: [5, 9, 12, 13], Output: Huffman codes for each character"
+          },
+          {
+            "question": "Find the minimum number of platforms required at a railway station for a given schedule of arrivals and departures",
+            "difficulty": "hard",
+            "topic": "Platform scheduling",
+            "example": "Input: Arrivals: [10:00, 10:15, 10:30], Departures: [10:10, 10:30, 10:45], Output: 2"
+          },
+          {
+            "question": "Solve the interval partitioning problem to find the minimum number of resources required",
+            "difficulty": "hard",
+            "topic": "Interval partitioning",
+            "example": "Input: [[1, 4], [2, 6], [8, 9], [8, 10]], Output: 2"
+          },
+          {
+            "question": "Find the maximum number of coins that can be collected in a grid from top-left to bottom-right corner with each cell having a coin value",
+            "difficulty": "hard",
+            "topic": "Grid coin collection",
+            "example": "Input: Grid: [[1, 3, 1], [1, 5, 1], [4, 2, 1]], Output: 12"
+          }
+        ]
+      },{
+        "topic": "Divide and Conquer",
+        "questions": [
+          {
+            "question": "Sort an array using Merge Sort",
+            "difficulty": "easy",
+            "topic": "Merge Sort",
+            "example": "Input: [3, 1, 4, 1, 5, 9], Output: [1, 1, 3, 4, 5, 9]"
+          },
+          {
+            "question": "Find the maximum and minimum element in an array using a divide and conquer approach",
+            "difficulty": "easy",
+            "topic": "Array min-max",
+            "example": "Input: [2, 3, 1, 6, 5], Output: Max: 6, Min: 1"
+          },
+          {
+            "question": "Find the closest pair of points in a 2D plane",
+            "difficulty": "medium",
+            "topic": "Closest Pair of Points",
+            "example": "Input: [(0, 0), (1, 1), (2, 2), (3, 3)], Output: Distance: 1.41"
+          },
+          {
+            "question": "Solve the problem of finding the kth smallest element in an array",
+            "difficulty": "medium",
+            "topic": "Quickselect",
+            "example": "Input: [7, 10, 4, 3, 20, 15], k=3, Output: 7"
+          },
+          {
+            "question": "Implement the Quick Sort algorithm to sort an array",
+            "difficulty": "medium",
+            "topic": "Quick Sort",
+            "example": "Input: [10, 7, 8, 9, 1, 5], Output: [1, 5, 7, 8, 9, 10]"
+          },
+          {
+            "question": "Find the majority element in an array (element that appears more than n/2 times)",
+            "difficulty": "medium",
+            "topic": "Majority Element",
+            "example": "Input: [3, 3, 4, 2, 4, 4, 2, 4, 4], Output: 4"
+          },
+          {
+            "question": "Solve the matrix multiplication problem using divide and conquer",
+            "difficulty": "hard",
+            "topic": "Strassen's Algorithm",
+            "example": "Input: Matrices A and B of size 2x2, Output: Matrix C = A * B"
+          },
+          {
+            "question": "Find the maximum subarray sum using divide and conquer",
+            "difficulty": "hard",
+            "topic": "Maximum Subarray Sum",
+            "example": "Input: [-2, 1, -3, 4, -1, 2, 1, -5, 4], Output: 6"
+          },
+          {
+            "question": "Solve the problem of finding the median of two sorted arrays",
+            "difficulty": "hard",
+            "topic": "Median of Two Sorted Arrays",
+            "example": "Input: [1, 3], [2], Output: 2"
+          },
+          {
+            "question": "Compute the convex hull of a set of points in the plane",
+            "difficulty": "hard",
+            "topic": "Convex Hull",
+            "example": "Input: [(0,0), (2,0), (1,1)], Output: [(0,0), (2,0), (1,1)]"
+          },
+          {
+            "question": "Find the longest common prefix of an array of strings",
+            "difficulty": "hard",
+            "topic": "Longest Common Prefix",
+            "example": "Input: ['flower', 'flow', 'flight'], Output: 'fl'"
+          },
+          {
+            "question": "Find the smallest number in a rotated sorted array",
+            "difficulty": "hard",
+            "topic": "Rotated Sorted Array",
+            "example": "Input: [4, 5, 6, 7, 0, 1, 2], Output: 0"
+          },
+          {
+            "question": "Solve the problem of counting inversions in an array",
+            "difficulty": "hard",
+            "topic": "Count Inversions",
+            "example": "Input: [2, 3, 8, 6, 1], Output: 5"
+          },
+          {
+            "question": "Find the maximum product subarray in an array of integers",
+            "difficulty": "hard",
+            "topic": "Maximum Product Subarray",
+            "example": "Input: [2, 3, -2, 4], Output: 6"
+          }
+        ]
+      },{
+        "topic": "Backtracking",
+        "questions": [
+          {
+            "question": "Solve the N-Queens problem where N queens are placed on an N x N chessboard such that no two queens attack each other",
+            "difficulty": "easy",
+            "topic": "N-Queens Problem",
+            "example": "Input: N=4, Output: [[.Q.., ...Q, Q..., ..Q.], [..Q., Q..., ...Q, .Q..]]"
+          },
+          {
+            "question": "Generate all subsets of a given set",
+            "difficulty": "easy",
+            "topic": "Subsets",
+            "example": "Input: [1, 2], Output: [[], [1], [2], [1, 2]]"
+          },
+          {
+            "question": "Find all permutations of a given list of numbers",
+            "difficulty": "easy",
+            "topic": "Permutations",
+            "example": "Input: [1, 2, 3], Output: [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]"
+          },
+          {
+            "question": "Solve the Sudoku puzzle",
+            "difficulty": "medium",
+            "topic": "Sudoku",
+            "example": "Input: A partially filled 9x9 grid, Output: Fully solved grid"
+          },
+          {
+            "question": "Find all valid combinations of parentheses for a given number of pairs",
+            "difficulty": "medium",
+            "topic": "Generate Parentheses",
+            "example": "Input: n=3, Output: ['((()))', '(()())', '(())()', '()(())', '()()()']"
+          },
+          {
+            "question": "Solve the Rat in a Maze problem where the rat needs to find a path from the start to the end of the maze",
+            "difficulty": "medium",
+            "topic": "Rat in a Maze",
+            "example": "Input: A maze represented as a grid, Output: A list of steps representing the path from start to end"
+          },
+          {
+            "question": "Find all possible combinations of a given number that add up to a target sum",
+            "difficulty": "medium",
+            "topic": "Combination Sum",
+            "example": "Input: candidates=[2, 3, 6, 7], target=7, Output: [[7], [2, 2, 3]]"
+          },
+          {
+            "question": "Solve the Word Search problem in a grid where you need to find if a given word exists in the grid",
+            "difficulty": "medium",
+            "topic": "Word Search",
+            "example": "Input: Grid and word, Output: True/False depending on whether the word exists in the grid"
+          },
+          {
+            "question": "Solve the problem of finding all combinations of a given length from a list of numbers",
+            "difficulty": "hard",
+            "topic": "Combinations",
+            "example": "Input: [1, 2, 3, 4], k=2, Output: [[1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4]]"
+          },
+          {
+            "question": "Find all possible solutions for the crossword puzzle where you need to place words into the grid",
+            "difficulty": "hard",
+            "topic": "Crossword Puzzle",
+            "example": "Input: A grid and a list of words, Output: All possible ways to place the words in the grid"
+          },
+          {
+            "question": "Solve the problem of finding all possible valid paths in a maze with obstacles",
+            "difficulty": "hard",
+            "topic": "Maze Paths",
+            "example": "Input: A maze represented as a grid with obstacles, Output: A list of valid paths from start to end"
+          },
+          {
+            "question": "Solve the problem of placing N knights on an N x N chessboard such that no two knights attack each other",
+            "difficulty": "hard",
+            "topic": "N-Knights Problem",
+            "example": "Input: N=4, Output: A configuration where no two knights can attack each other"
+          },
+          {
+            "question": "Solve the problem of generating all possible valid sequences of a given number of digits",
+            "difficulty": "hard",
+            "topic": "Digit Sequences",
+            "example": "Input: digits=[1, 2, 3], Output: All possible sequences of the digits"
+          }
+        ]
+      }    
+  
+]
