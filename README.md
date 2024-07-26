@@ -1,6 +1,6 @@
 # CodeBuilding
 
-CodeBuilding is an interactive web application designed to help users practice and learn coding through a series of data structure and algorithm (DSA) questions. The app features a code editor, execution environment, and AI-generated code suggestions to enhance learning and coding proficiency.
+CodeBuilding is an interactive web application designed to help users practice and learn coding through a series of Data Structure and Algorithm (DSA) questions. The app features a code editor, execution environment, and AI-generated code suggestions to enhance learning and coding proficiency.
 
 ## Table of Contents
 - [Features](#features)
