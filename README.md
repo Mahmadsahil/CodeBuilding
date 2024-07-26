@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# CodeBuilding
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CodeBuilding is an interactive web application designed to help users practice and learn coding through a series of data structure and algorithm (DSA) questions. The app features a code editor, execution environment, and AI-generated code suggestions to enhance learning and coding proficiency.
 
-## Available Scripts
+## Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Data Structures and Algorithms Topics**: Browse various DSA topics such as Arrays, Stacks, Queues, etc.
+- **Questions with Difficulty Levels**: Select questions based on difficulty level.
+- **Code Editor**: Write and edit code directly in the browser.
+- **Code Execution**: Run code with a single click and receive real-time feedback (success/error) and error messages.
+- **AI-Generated Code**: Generate code solutions for selected questions using AI.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **React**: A JavaScript library for building user interfaces, providing a component-based architecture.
+- **Redux Toolkit**: A state management library, simplifying the setup of Redux and reducing boilerplate.
+- **React Router**: A library for handling routing in React applications, allowing navigation between different views.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development with minimal custom CSS.
+- **Google Generative AI**: Used for generating code solutions based on provided questions and inputs.
+- **React Lazy Load Image Component**: Efficiently loads images only when they are visible in the viewport.
+- **Web Vitals**: A library for measuring essential metrics for a healthy user experience.
+- **Testing Libraries**: Ensures reliability and correctness of the application through Jest and React Testing Library.
